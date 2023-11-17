@@ -55,6 +55,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_speech:
+    dependency: "direct main"
+    description:
+      name: flutter_speech
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.0"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -148,11 +155,11 @@ packages:
     source: hosted
     version: "1.9.0"
   speech_to_text:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
-      path: ".."
-      relative: true
-    source: path
+      name: speech_to_text
+      url: "https://pub.dartlang.org"
+    source: hosted
     version: "6.1.1"
   speech_to_text_macos:
     dependency: transitive

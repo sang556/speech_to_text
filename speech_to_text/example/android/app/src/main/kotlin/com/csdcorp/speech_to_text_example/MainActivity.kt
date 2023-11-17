@@ -8,5 +8,6 @@ import io.flutter.plugins.GeneratedPluginRegistrant
 class MainActivity: FlutterActivity() {
     override fun configureFlutterEngine(@NonNull flutterEngine: FlutterEngine) {
         GeneratedPluginRegistrant.registerWith(flutterEngine);
+        //SpeechUtility.createUtility(getApplicationContext(), SpeechConstant.APPID + "=5d541b42");
     }
 }
